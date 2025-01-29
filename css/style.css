@@ -104,7 +104,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(182, 181, 181);
+  background-color: #e5e7eb;
   height: 300px;
 }
 .quotes-container p {
@@ -114,7 +114,53 @@ body {
 .quotes h1 {
   font-weight: 200;
   font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
 }
 .quotes {
   margin: 0 30%;
+}
+.action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.call-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #3882f6;
+  width: 1000px;
+  padding: 4em;
+  border-radius: 10px;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left p {
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 18px;
+}
+.right p {
+  color: #e5e7eb;
+  font-weight: 100;
+}
+.right button {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  width: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #f9faf8;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #1f2937;
+  color: #f9faf8;
 }
